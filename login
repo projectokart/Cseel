@@ -1,0 +1,249 @@
+<html dir="ltr" lang="en-US"><head>
+  <base href="/">
+  <title>Login - Cseel</title>
+  <meta name="og:title" content="Login To Your Account | Cseel">
+  <meta name="og:description" content="Login to access Cseel's catalog of virtual lab simulations and teaching resources designed to train the next generation of scientists.">
+  <meta name="og:image" content="https://www.cseel.org/assets/cseel-virtual-labs.jpeg">
+  <meta name="og:site_name" content="Cseel">
+  <meta charset="utf-8">
+  <meta name="description" content="Login to access Cseel's catalog of virtual lab simulations and teaching resources designed to train the next generation of scientists.">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="robots" content="follow, index">
+  <meta name="viewport" content="initial-scale=1,maximum-scale=5,minimum-scale=1,width=device-width">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100..900&amp;display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://www.cseel.org/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://www.cseel.org/icons/favicon-16x16.png">
+  <link rel="icon" type="image/ico" href="https://www.cseel.org/favicon.ico">
+
+  <script defer="" src="https://www.cseel.org/js/app.439fcae2.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://www.cseel.org/css/7641.0f50515c.css">
+  <link rel="stylesheet" type="text/css" href="https://www.cseel.org/css/9238.a3ba14bc.css">
+  <link rel="stylesheet" type="text/css" href="https://www.cseel.org/css/5101.3dc8fa25.css">
+  <link rel="stylesheet" type="text/css" href="https://www.cseel.org/css/8520.f7721e54.css">
+</head>
+
+<body class="desktop no-touch body--light"><div id="q-app" data-v-app=""><div><div class="loading-spinner" style="display: none;"><div class="loading-spinner__background"></div><div class="loading-spinner__container"><div class="q-circular-progress q-circular-progress--indeterminate" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="font-size: 75px;"><svg class="q-circular-progress__svg" viewBox="55.55555555555556 55.55555555555556 111.11111111111111 111.11111111111111" aria-hidden="true" style="transform: rotate3d(0, 0, 1, -90deg);"><circle class="q-circular-progress__circle text-blue-7" fill="transparent" stroke="currentColor" stroke-width="11.111111111111112" stroke-dasharray="314.159" stroke-dashoffset="314.1592653589793" cx="111.11111111111111" cy="111.11111111111111" r="50" style=""></circle></svg></div></div></div><div class="q-layout q-layout--standard" tabindex="-1" style="min-height: 737.6px;"><!----><!----><div class="q-page-container"><main class="q-page" style="min-height: 737.6px;"><div data-v-5c874679="" class="row content-start"><div class="col-12 col-md-6" data-v-5c874679=""><div data-v-5c874679="" class="preview relative-position"><div class="bg-brand-gradient absolute-full"></div><div class="flex flex-center full-height auth__branding-area">
+  <div style="display: flex; align-items: center; justify-content: center; gap: 12px;">
+    <!-- Logo Icon -->
+    <a href="/" aria-current="page" aria-label="Home" class="footer_logo-link w-nav-brand w--current">
+      <img src="logo.png" loading="lazy" width="50" height="50" alt="Visit Cseel.org Homepage" style="display: inline-block; vertical-align: middle;">
+    </a>
+
+    <!-- Logo Text -->
+    <a href="/" aria-current="page" aria-label="Home" class="navbar_logo-link w-nav-brand w--current">
+      <svg width="160" height="30" viewBox="0 0 160 30" xmlns="http://www.w3.org/2000/svg" class="navbar_logo">
+        <text x="0" y="24" font-family="Segoe UI, Tahoma, sans-serif" font-weight="bold" font-size="29" fill="currentColor">C.S.E.E.L</text>
+      </svg>
+    </a>
+  </div>
+</div>
+</div></div><div data-v-5c874679="" class="col-12 col-md-6 q-py-xl2 q-px-lg3"><div class="flex flex-center column text-center"><div><div data-v-2d4731f4="" class="q-card__section q-card__section--vert auth__box-inner text-center"><h2 data-v-2d4731f4="" class="text-center q-mb-lg">Welcome back</h2><label data-v-2d4731f4="" class="q-field row no-wrap items-start q-field--outlined q-input q-field--float q-field--labeled q-mb-sm2" for="f_854c5ff7-4349-4567-8046-21f45ac39ea0"><!----><div class="q-field__inner relative-position col self-stretch"><div class="q-field__control relative-position row no-wrap text-blue-6" tabindex="-1"><div class="q-field__control-container col relative-position row no-wrap q-anchor--skip"><input class="q-field__native q-placeholder" tabindex="0" name="username" id="f_854c5ff7-4349-4567-8046-21f45ac39ea0" modelmodifiers="[object Object]" data-testid="loginEmail" type="email" value=""><div class="q-field__label no-pointer-events absolute ellipsis">Email</div><!----></div></div><!----></div><!----></label><label data-v-e9c6f6f8="" data-v-2d4731f4="" class="q-field row no-wrap items-start q-field--outlined q-input q-field--float q-field--labeled margin-transition q-mb-sm2 q-mb-sm2" for="f_9ab9251e-a480-474f-b116-d9b71a0aaa2d"><!----><div class="q-field__inner relative-position col self-stretch"><div class="q-field__control relative-position row no-wrap text-blue-6" tabindex="-1"><div class="q-field__control-container col relative-position row no-wrap q-anchor--skip"><input class="q-field__native q-placeholder" tabindex="0" name="password" id="f_9ab9251e-a480-474f-b116-d9b71a0aaa2d" data-test="input" data-dd-privacy="mask" type="password" value=""><div class="q-field__label no-pointer-events absolute ellipsis">Password</div><!----></div><div class="q-field__append q-field__marginal row no-wrap items-center"><button data-v-e9c6f6f8="" class="q-btn q-btn-item non-selectable no-outline q-btn--flat q-btn--rectangle q-btn--actionable q-focusable q-hoverable q-btn--dense" tabindex="0" type="button"><span class="q-focus-helper"></span><span class="q-btn__content text-center col items-center q-anchor--skip justify-center row"><i class="q-icon ci-show" aria-hidden="true" role="img"> </i><span data-v-e9c6f6f8="" class="screen-readers-hidden-class">show Password</span></span></button></div></div><!----></div><!----></label><!----><button data-v-2d4731f4="" class="q-btn q-btn-item non-selectable no-outline q-btn--standard q-btn--rectangle q-btn--actionable q-focusable q-hoverable button primary md-size full-width q-mb-md2" tabindex="0" type="button" id="loginButton" data-testid="loginButton" name="loginButton"><span class="q-focus-helper"></span><span class="q-btn__content text-center col items-center q-anchor--skip justify-center row"><span class="block">Login</span></span><!----></button><div data-v-2d4731f4="" class="text-center"><a data-v-2d4731f4="" class="q-btn q-btn-item non-selectable no-outline q-btn--standard q-btn--rectangle q-btn--actionable q-focusable q-hoverable button tertiary xs-size" tabindex="0" href="/password/forgot"><span class="q-focus-helper"></span><span class="q-btn__content text-center col items-center q-anchor--skip justify-center row"><span class="block">Forgot password?</span></span></a></div><div data-v-2d4731f4=""><div data-v-2d4731f4="" class="text-separator text-center q-my-sm2"><span data-v-2d4731f4="" class="text-grey-8">or</span></div><a data-v-2d4731f4="" class="q-btn q-btn-item non-selectable no-outline q-btn--standard q-btn--rectangle q-btn--actionable q-focusable q-hoverable button secondary full-width q-mb-sm2" tabindex="0" href="/login/google-classroom-login"><span class="q-focus-helper"></span><span class="q-btn__content text-center col items-center q-anchor--skip justify-center row"><i class="q-icon on-left" aria-hidden="true" role="img"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTUgNy41MjU4OEgzNVYzMi41MjU4SDVWNy41MjU4OFoiIGZpbGw9IiMwRjlENTgiLz4KPHBhdGggZD0iTTI2LjY2NyAyMC44NTkyQzI3LjcwMTcgMjAuODU5MiAyOC41NDIgMjAuMDE4OSAyOC41NDIgMTguOTg0MUMyOC41NDIgMTcuOTQ5NCAyNy43MDE3IDE3LjEwOTEgMjYuNjY3IDE3LjEwOTFDMjUuNjMyMyAxNy4xMDkxIDI0Ljc5MiAxNy45NDk0IDI0Ljc5MiAxOC45ODQxQzI0Ljc5MiAyMC4wMTg5IDI1LjYzMjMgMjAuODU5MiAyNi42NjcgMjAuODU5MlpNMjYuNjY3IDIyLjEwOTJDMjQuNjYgMjIuMTA5MiAyMi41MDAzIDIzLjE3MTcgMjIuNTAwMyAyNC40OTExVjI1Ljg1OTJIMzAuODMzN1YyNC40OTExQzMwLjgzMzcgMjMuMTcxNyAyOC42NzM5IDIyLjEwOTIgMjYuNjY3IDIyLjEwOTJaTTEzLjMzMzcgMjAuODU5MkMxNC4zNjg0IDIwLjg1OTIgMTUuMjA4NyAyMC4wMTg5IDE1LjIwODcgMTguOTg0MUMxNS4yMDg3IDE3Ljk0OTQgMTQuMzY4NCAxNy4xMDkxIDEzLjMzMzcgMTcuMTA5MUMxMi4yOTg5IDE3LjEwOTEgMTEuNDU4NyAxNy45NDk0IDExLjQ1ODcgMTguOTg0MUMxMS40NTg3IDIwLjAxODkgMTIuMjk4OSAyMC44NTkyIDEzLjMzMzcgMjAuODU5MlpNMTMuMzMzNyAyMi4xMDkyQzExLjMyNjcgMjIuMTA5MiA5LjE2Njk5IDIzLjE3MTcgOS4xNjY5OSAyNC40OTExVjI1Ljg1OTJIMTcuNTAwM1YyNC40OTExQzE3LjUwMDMgMjMuMTcxNyAxNS4zNDA2IDIyLjEwOTIgMTMuMzMzNyAyMi4xMDkyWiIgZmlsbD0iIzU3QkI4QSIvPgo8cGF0aCBkPSJNMjAuMDAwNCAxOS4xOTI0QzIxLjM4MjMgMTkuMTkyNCAyMi41MDA0IDE4LjA3NDMgMjIuNTAwNCAxNi42OTI0QzIyLjUwMDQgMTUuMzEwNCAyMS4zODIzIDE0LjE5MjQgMjAuMDAwNCAxNC4xOTI0QzE4LjYxODQgMTQuMTkyNCAxNy41MDAzIDE1LjMxMDQgMTcuNTAwMyAxNi42OTI0QzE3LjUwMDMgMTguMDc0MyAxOC42MTg0IDE5LjE5MjQgMjAuMDAwNCAxOS4xOTI0Wk0yMC4wMDA0IDIwLjg1OTFDMTcuMTg3OCAyMC44NTkxIDE0LjE2NyAyMi4zNTIyIDE0LjE2NyAyNC4xOTI0VjI1Ljg1OTFIMjUuODMzN1YyNC4xOTI0QzI1LjgzMzcgMjIuMzUyMiAyMi44MTI5IDIwLjg1OTEgMjAuMDAwNCAyMC44NTkxWiIgZmlsbD0iI0Y3RjdGNyIvPgo8cGF0aCBkPSJNMjMuMzM0IDMwLjg1OTFIMzAuODM0VjMyLjUyNTdIMjMuMzM0VjMwLjg1OTFaIiBmaWxsPSIjRjFGMUYxIi8+CjxwYXRoIGQ9Ik0zNS44MzM3IDQuMTkyMTRINC4xNjY5OUMyLjc4NTA1IDQuMTkyMTQgMS42NjY5OSA1LjMxMDE5IDEuNjY2OTkgNi42OTIxM1YzMy4zNTg3QzEuNjY2OTkgMzQuNzQwNyAyLjc4NTA1IDM1Ljg1ODcgNC4xNjY5OSAzNS44NTg3SDM1LjgzMzdDMzcuMjE1NiAzNS44NTg3IDM4LjMzMzcgMzQuNzQwNyAzOC4zMzM3IDMzLjM1ODdWNi42OTIxM0MzOC4zMzM3IDUuMzEwMTkgMzcuMjE1NiA0LjE5MjE0IDM1LjgzMzcgNC4xOTIxNFpNMzUuMDAwMyAzMi41MjU0SDUuMDAwMzNWNy41MjU0N0gzNS4wMDAzVjMyLjUyNTRaIiBmaWxsPSIjRjRCNDAwIi8+CjxwYXRoIG9wYWNpdHk9IjAuMiIgZD0iTTM1LjgzMzcgNC4xOTIxNEg0LjE2Njk5QzIuNzg1MDUgNC4xOTIxNCAxLjY2Njk5IDUuMzEwMTggMS42NjY5OSA2LjY5MjExVjYuOTAwNDRDMS42NjY5OSA1LjUxODUxIDIuNzg1MDUgNC40MDA0NyA0LjE2Njk5IDQuNDAwNDdIMzUuODMzN0MzNy4yMTU2IDQuNDAwNDcgMzguMzMzNyA1LjUxODUxIDM4LjMzMzcgNi45MDA0NFY2LjY5MjExQzM4LjMzMzcgNS4zMTAxOCAzNy4yMTU2IDQuMTkyMTQgMzUuODMzNyA0LjE5MjE0WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggb3BhY2l0eT0iMC4yIiBkPSJNMzUuODMzNyAzNS42NTA1SDQuMTY2OTlDMi43ODUwNSAzNS42NTA1IDEuNjY2OTkgMzQuNTMyNSAxLjY2Njk5IDMzLjE1MDZWMzMuMzU5QzEuNjY2OTkgMzQuNzQwOSAyLjc4NTA1IDM1Ljg1ODkgNC4xNjY5OSAzNS44NTg5SDM1LjgzMzdDMzcuMjE1NiAzNS44NTg5IDM4LjMzMzcgMzQuNzQwOSAzOC4zMzM3IDMzLjM1OVYzMy4xNTA2QzM4LjMzMzcgMzQuNTMyNSAzNy4yMTU2IDM1LjY1MDUgMzUuODMzNyAzNS42NTA1WiIgZmlsbD0iI0JGMzYwQyIvPgo8cGF0aCBkPSJNMzAuODE5MyAzMi41MjU2SDIzLjMxOTNMMjYuNjUyNiAzNS44NTlIMzQuMTQ1N0wzMC44MTkzIDMyLjUyNTZaIiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXJfMTQ1OTE6NTE0Njg2KSIvPgo8cGF0aCBvcGFjaXR5PSIwLjIiIGQ9Ik01IDcuMzE3MzhIMzVWNy41MjU3NEg1VjcuMzE3MzhaIiBmaWxsPSIjMjYzMjM4Ii8+CjxwYXRoIG9wYWNpdHk9IjAuMiIgZD0iTTUgMzIuNTI1NkgzNVYzMi43MzM5SDVWMzIuNTI1NloiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik0zNS44MzM3IDQuNzQ3OEg0LjE2Njk5QzIuNzg1MDUgNC43NDc4IDEuNjY2OTkgNS44NjU4NiAxLjY2Njk5IDcuMjQ3OFYzMy45MTQ0QzEuNjY2OTkgMzUuMjk2MyAyLjc4NTA1IDM2LjQxNDQgNC4xNjY5OSAzNi40MTQ0SDM1LjgzMzdDMzcuMjE1NiAzNi40MTQ0IDM4LjMzMzcgMzUuMjk2MyAzOC4zMzM3IDMzLjkxNDRWNy4yNDc4QzM4LjMzMzcgNS44NjU4NiAzNy4yMTU2IDQuNzQ3OCAzNS44MzM3IDQuNzQ3OFoiIGZpbGw9InVybCgjcGFpbnQxX3JhZGlhbF8xNDU5MTo1MTQ2ODYpIi8+CjxkZWZzPgo8bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MF9saW5lYXJfMTQ1OTE6NTE0Njg2IiB4MT0iMjguNzMyOCIgeTE9IjMyLjU3MTgiIHgyPSIyOC43MzI4IiB5Mj0iMzUuODkzNyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgo8c3RvcCBzdG9wLWNvbG9yPSIjQkYzNjBDIiBzdG9wLW9wYWNpdHk9IjAuMiIvPgo8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNCRjM2MEMiIHN0b3Atb3BhY2l0eT0iMC4wMiIvPgo8L2xpbmVhckdyYWRpZW50Pgo8cmFkaWFsR3JhZGllbnQgaWQ9InBhaW50MV9yYWRpYWxfMTQ1OTE6NTE0Njg2IiBjeD0iMCIgY3k9IjAiIHI9IjEiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiBncmFkaWVudFRyYW5zZm9ybT0idHJhbnNsYXRlKDIuNzQ2MjMgNS40OTAwNykgc2NhbGUoMTUxLjI4NyAxNTEuMjg2KSI+CjxzdG9wIHN0b3AtY29sb3I9IndoaXRlIiBzdG9wLW9wYWNpdHk9IjAuMSIvPgo8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IndoaXRlIiBzdG9wLW9wYWNpdHk9IjAiLz4KPC9yYWRpYWxHcmFkaWVudD4KPC9kZWZzPgo8L3N2Zz4K"></i><span class="block">Log in with Google Classroom</span></span></a><a data-v-2d4731f4="" class="q-btn q-btn-item non-selectable no-outline q-btn--standard q-btn--rectangle q-btn--actionable q-focusable q-hoverable button tertiary-alt sm-size full-width" tabindex="0" href="/join-course"><span class="q-focus-helper"></span><span class="q-btn__content text-center col items-center q-anchor--skip justify-center row"><span class="block">Sign up with a Course Code</span></span></a></div></div></div><div class="text-center q-mt-md"><span class="text-body2">Having trouble logging in?</span><a aria-label="Cseel Help Center Opens in a new tab" href="https://help.cseel.org/" class="inline-block" target="_blank"><div class="flex text-body2 justify-center items-center"><p class="q-ml-sm q-mr-xs text-link">Cseel Help Center</p><i class="q-icon ci-help_circle_outline q-mb-md" aria-hidden="true" style="font-size: 16px;"> </i></div></a></div><div class="group justify-between info-box info lt-sm q-mt-lg auth__mobile-info text-left" data-testid="baseInfoBox"><div class="group items-center"><div><i class="q-icon ci-info_circle info-box__icon q-mr-sm" aria-hidden="true" style="font-size: 22px;"> </i></div><span class="text-body2">You can log in, but playing simulations is currently not supported on mobile devices.</span></div></div></div></div></div></main></div></div><!----><!----><!----></div></div><div id="q-notify" data-v-app=""><div class="q-notifications"><div class="q-notifications__list q-notifications__list--top fixed column no-wrap items-start"></div><div class="q-notifications__list q-notifications__list--top fixed column no-wrap items-end"></div><div class="q-notifications__list q-notifications__list--bottom fixed column no-wrap items-start"></div><div class="q-notifications__list q-notifications__list--bottom fixed column no-wrap items-end"></div><div class="q-notifications__list q-notifications__list--top fixed column no-wrap items-center"></div><div class="q-notifications__list q-notifications__list--bottom fixed column no-wrap items-center"></div><div class="q-notifications__list q-notifications__list--center fixed column no-wrap items-start justify-center"></div><div class="q-notifications__list q-notifications__list--center fixed column no-wrap items-end justify-center"></div><div class="q-notifications__list q-notifications__list--center fixed column no-wrap flex-center"></div></div></div><script type="text/javascript" async="" src="https://widget.intercom.io/widget/qm2kjb8e"></script><iframe id="intercom-frame" style="position: absolute !important; opacity: 0 !important; width: 1px !important; height: 1px !important; top: 0 !important; left: 0 !important; border: none !important; display: block !important; z-index: -1 !important; pointer-events: none;" aria-hidden="true" tabindex="-1" title="Intercom"></iframe><div class="intercom-lightweight-app"><style id="intercom-lightweight-app-style" type="text/css">
+  @keyframes intercom-lightweight-app-launcher {
+    from {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  @keyframes intercom-lightweight-app-gradient {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes intercom-lightweight-app-messenger {
+    0% {
+      opacity: 0;
+      transform: scale(0);
+    }
+    40% {
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .intercom-lightweight-app {
+    position: fixed;
+    z-index: 2147483001;
+    width: 0;
+    height: 0;
+    font-family: intercom-font, "Helvetica Neue", "Apple Color Emoji", Helvetica, Arial, sans-serif;
+  }
+
+  .intercom-lightweight-app-gradient {
+    position: fixed;
+    z-index: 2147483002;
+    width: 500px;
+    height: 500px;
+    bottom: 0;
+    right: 0;
+    pointer-events: none;
+    background: radial-gradient(
+      ellipse at bottom right,
+      rgba(29, 39, 54, 0.16) 0%,
+      rgba(29, 39, 54, 0) 72%);
+    animation: intercom-lightweight-app-gradient 200ms ease-out;
+  }
+
+  .intercom-lightweight-app-launcher {
+    position: fixed;
+    z-index: 2147483003;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none;
+    bottom: 24px;
+    right: 24px;
+    max-width: 48px;
+    width: 48px;
+    max-height: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #006FCC;
+    cursor: pointer;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.06), 0 2px 32px 0 rgba(0, 0, 0, 0.16);
+    transition: transform 167ms cubic-bezier(0.33, 0.00, 0.00, 1.00);
+    box-sizing: content-box;
+  }
+
+
+  .intercom-lightweight-app-launcher:hover {
+    transition: transform 250ms cubic-bezier(0.33, 0.00, 0.00, 1.00);
+    transform: scale(1.1)
+  }
+
+  .intercom-lightweight-app-launcher:active {
+    transform: scale(0.85);
+    transition: transform 134ms cubic-bezier(0.45, 0, 0.2, 1);
+  }
+
+
+  .intercom-lightweight-app-launcher:focus {
+    outline: none;
+
+    
+  }
+
+  .intercom-lightweight-app-launcher-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 48px;
+    height: 48px;
+    transition: transform 100ms linear, opacity 80ms linear;
+  }
+
+  .intercom-lightweight-app-launcher-icon-open {
+    
+        opacity: 1;
+        transform: rotate(0deg) scale(1);
+      
+  }
+
+  .intercom-lightweight-app-launcher-icon-open svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .intercom-lightweight-app-launcher-icon-open svg path {
+    fill: rgb(255, 255, 255);
+  }
+
+  .intercom-lightweight-app-launcher-icon-self-serve {
+    
+        opacity: 1;
+        transform: rotate(0deg) scale(1);
+      
+  }
+
+  .intercom-lightweight-app-launcher-icon-self-serve svg {
+    height: 44px;
+  }
+
+  .intercom-lightweight-app-launcher-icon-self-serve svg path {
+    fill: rgb(255, 255, 255);
+  }
+
+  .intercom-lightweight-app-launcher-custom-icon-open {
+    max-height: 24px;
+    max-width: 24px;
+
+    
+        opacity: 1;
+        transform: rotate(0deg) scale(1);
+      
+  }
+
+  .intercom-lightweight-app-launcher-icon-minimize {
+    
+        opacity: 0;
+        transform: rotate(-60deg) scale(0);
+      
+  }
+
+  .intercom-lightweight-app-launcher-icon-minimize svg path {
+    fill: rgb(255, 255, 255);
+  }
+
+  .intercom-lightweight-app-messenger {
+    position: fixed;
+    z-index: 2147483003;
+    overflow: hidden;
+    background-color: #ffffff;
+    animation: intercom-lightweight-app-messenger 250ms cubic-bezier(0, 1, 1, 1);
+    transform-origin: bottom right;
+
+    
+        width: 400px;
+        height: calc(100% - 108px);
+        max-height: 704px;
+        min-height: 250px;
+        right: 24px;
+        bottom: 88px;
+        box-shadow: 0 5px 40px rgba(0,0,0,0.16);
+      
+
+    border-radius: 16px;
+  }
+
+  .intercom-lightweight-app-messenger-header {
+    height: 64px;
+    border-bottom: none;
+    background: #ffffff;
+  }
+
+  .intercom-lightweight-app-messenger-footer{
+    position:absolute;
+    bottom:0;
+    width: 100%;
+    height: 80px;
+    background: #ffffff;
+    font-size: 14px;
+    line-height: 21px;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+  }
+
+  @media print {
+    .intercom-lightweight-app {
+      display: none;
+    }
+  }
+</style><div class="intercom-lightweight-app-launcher intercom-launcher" role="button" tabindex="0" aria-label="Open Intercom Messenger" aria-live="polite"><div class="intercom-lightweight-app-launcher-icon intercom-lightweight-app-launcher-icon-open"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 32"><path d="M28 32s-4.714-1.855-8.527-3.34H3.437C1.54 28.66 0 27.026 0 25.013V3.644C0 1.633 1.54 0 3.437 0h21.125c1.898 0 3.437 1.632 3.437 3.645v18.404H28V32zm-4.139-11.982a.88.88 0 00-1.292-.105c-.03.026-3.015 2.681-8.57 2.681-5.486 0-8.517-2.636-8.571-2.684a.88.88 0 00-1.29.107 1.01 1.01 0 00-.219.708.992.992 0 00.318.664c.142.128 3.537 3.15 9.762 3.15 6.226 0 9.621-3.022 9.763-3.15a.992.992 0 00.317-.664 1.01 1.01 0 00-.218-.707z"></path></svg></div><div class="intercom-lightweight-app-launcher-icon intercom-lightweight-app-launcher-icon-minimize"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M18.601 8.39897C18.269 8.06702 17.7309 8.06702 17.3989 8.39897L12 13.7979L6.60099 8.39897C6.26904 8.06702 5.73086 8.06702 5.39891 8.39897C5.06696 8.73091 5.06696 9.2691 5.39891 9.60105L11.3989 15.601C11.7309 15.933 12.269 15.933 12.601 15.601L18.601 9.60105C18.9329 9.2691 18.9329 8.73091 18.601 8.39897Z" fill="currentColor"></path>
+</svg>
+</div></div></div>
+</body></html>
