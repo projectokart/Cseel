@@ -2336,61 +2336,24 @@ window.addEventListener("load",(()=>{const e=document.querySelector("[cg_custom-
 
 
 
+
+
+
+
 <!-- ✅ POPUP MODAL -->
-<div id="thankYouModal" style="
-  display: none;
-  position: fixed;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 9999;
-  justify-content: center;
-  align-items: center;
-">
-  <div style="background: #fff; padding: 20px 30px; border-radius: 8px; max-width: 400px; text-align: center; box-shadow: 0 0 10px rgba(0,0,0,0.3);">
-    <p style="color: green; font-weight: bold; font-size: 18px;">✅ Thank you! Your submission has been received.</p>
-    <button onclick="document.getElementById('thankYouModal').style.display='none'" style="margin-top: 15px; padding: 8px 16px; background: #007BFF; color: #fff; border: none; border-radius: 4px; cursor: pointer;">Close</button>
+<div id="thankYouModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background-color:rgba(0,0,0,0.5); z-index:9999; justify-content:center; align-items:center;">
+  <div style="background:#fff; padding:20px 30px; border-radius:8px; max-width:400px; text-align:center; box-shadow:0 0 10px rgba(0,0,0,0.3);">
+    <p style="color:green; font-weight:bold; font-size:18px;">✅ Thank you! Your submission has been received.</p>
+    <button onclick="document.getElementById('thankYouModal').style.display='none'" style="margin-top:15px; padding:8px 16px; background:#007BFF; color:#fff; border:none; border-radius:4px; cursor:pointer;">Close</button>
   </div>
 </div>
 
-<!-- ✅ JAVASCRIPT -->
 <script>
   const form = document.getElementById("mktoForm_1625");
 
   form.addEventListener("submit", function (e) {
     e.preventDefault();
 
-    // ✅ Built-in form validation
-    if (!form.checkValidity()) {
-      form.reportValidity();
-      return;
-    }
-
-    // ✅ Extra JS validation (if needed)
-    const email = form.querySelector("input[name='email']").value;
-    const phone = form.querySelector("input[name='phone']").value;
-    const name = form.querySelector("input[name='name']").value;
-
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    const phoneRegex = /^[6-9]\d{9}$/;
-    const nameRegex = /^[a-zA-Z\s]+$/;
-
-    if (!emailRegex.test(email)) {
-      alert("Please enter a valid email address.");
-      return;
-    }
-
-    if (!phoneRegex.test(phone)) {
-      alert("Please enter a valid 10-digit Indian phone number starting with 6-9.");
-      return;
-    }
-
-    if (!nameRegex.test(name)) {
-      alert("Name should contain only letters and spaces.");
-      return;
-    }
-
-    // ✅ All good — send the form
     const formData = new FormData(form);
 
     fetch("https://formspree.io/f/xjkwgqkl", {
@@ -2401,7 +2364,9 @@ window.addEventListener("load",(()=>{const e=document.querySelector("[cg_custom-
       body: formData
     })
     .then(response => {
-      if (!response.ok) throw new Error("Network error");
+      if (!response.ok) {
+        throw new Error("Network response was not ok");
+      }
       return response.json();
     })
     .then(data => {
@@ -2409,7 +2374,8 @@ window.addEventListener("load",(()=>{const e=document.querySelector("[cg_custom-
         form.reset();
         document.getElementById("thankYouModal").style.display = "flex";
       } else {
-        alert("Form could not be submitted. Try again.");
+        alert("There was a problem with your submission.");
+        console.log(data);
       }
     })
     .catch(error => {
